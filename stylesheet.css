@@ -32,6 +32,10 @@ a {
 	margin: 0 auto;
 }
 
+.grid {
+	display: flex;
+}
+
 header {
 	position: fixed;
 	top: 0;
@@ -119,12 +123,14 @@ nav > ul {
 
 #hero {
 	display: flex;
+	color: #fcba03;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	height: 200px;
 	margin-top: 50px;
+	padding-top: 20px;
 }
 
 #hero > h2 {
@@ -136,6 +142,35 @@ nav > ul {
 	#hero {
 		margin-top: 120px;
 	}
+}
+
+#features {
+	margin-top: 50px;
+	display:  flex;
+	justify-content:  center;
+}
+
+#featurelist {
+	display: block;
+}
+
+#features > iframe {
+	max-width:  560px;
+	width: 100%;
+}
+
+
+#pricing {
+	margin-top: 60px;
+	display:  flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#icon {
+	display: flex;
+	height: 80px;
+	width: 10vw;
 }
 
 
